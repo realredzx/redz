@@ -6,7 +6,7 @@ FruitsToReset = {  -- << Fruits it'll reset with, so you can put these fruits in
     "Love-Love",
     "Magma-Magma",
     "Ghost-Ghost",
-    "Barrier-Barrier"
+    "Barrier-Barrier",
     "Spider-Spider"
 }
 
