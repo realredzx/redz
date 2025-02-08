@@ -10,4 +10,4 @@ FruitsToReset = {  -- << Fruits it'll reset with, so you can put these fruits in
     "Spider-Spider"
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lelel22f/script/refs/heads/main/note"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lelel22f/script/8ccb848378e14dd80530c61270be1403649e3771/note"))()
